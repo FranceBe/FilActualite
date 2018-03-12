@@ -8,10 +8,10 @@ import ListeCommentaires from './ListeCommentaires'
 
 export default class Actualite extends React.Component {
     render() {
-        const { auteur, commentaires, datePublication, message, reactions } = this.props.actualite;
+        const { auteur, commentaires, id, datePublication, message, reactions } = this.props.actualite;
         return (
             <div className="Actualite">
-            <HeaderMessage auteur={auteur} datePublication={datePublication} />
+            <HeaderMessage auteur={auteur} datePublication={datePublication} id={id} />
             <Message message={message} />
             <Reactions reactions={reactions} />
             <ListeCommentaires commentaires={commentaires} />

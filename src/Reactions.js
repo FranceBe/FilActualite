@@ -27,7 +27,7 @@ renderReaction([reactionType, compteur]) {
             )}
             onClick={(e) => this.selectReaction(reactionType)}
         >
-            <i class={"fas " + reactionsEnum[reactionType]} />
+            <i className={"fas " + reactionsEnum[reactionType]} />
 
             {" " + compteur}
         </div>

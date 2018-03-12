@@ -1,5 +1,3 @@
-import FontAwesome from'react-fontawesome';
-
 export const reactionsEnum = {
   'likes': 'fa-thumbs-up',
   'hearts': 'fa-heart',
@@ -13,7 +11,7 @@ export const actualites = [
     datePublication: Date.now() - 100,
     auteur: {
       nom: 'Kristen',
-      avatar: './img/kristen.jpg',
+      avatar: '../img/kristen.jpg',
     },
     reactions: {
       likes: 4,
@@ -26,7 +24,7 @@ export const actualites = [
         datePublication: Date.now() - 30000,
         auteur: {
           nom: 'Aloy',
-          avatar: './img/Aloy.jpg',
+          avatar: '../img/Aloy.jpg',
         },
         actualiteId: '47ld',
       },
@@ -35,7 +33,7 @@ export const actualites = [
         datePublication: Date.now() - 10000,
         auteur: {
           nom: 'Jane',
-          avatar: './img/janedoe.jpg',
+          avatar: '../img/janedoe.jpg',
         },
         actualiteId: '47ld',
       },
@@ -47,7 +45,7 @@ export const actualites = [
     datePublication: Date.now() - 100000,
     auteur: {
       nom: 'Aloy',
-      avatar: './img/Aloy.jpg',
+      avatar: '../img/Aloy.jpg',
     },
     reactions: {
       likes: 1,
