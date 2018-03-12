@@ -5,6 +5,7 @@ import Reactions from './Reactions';
 import ListeCommentaires from './ListeCommentaires'
 
 
+
 export default class Actualite extends React.Component {
     render() {
         const { auteur, commentaires, datePublication, message, reactions } = this.props.actualite;

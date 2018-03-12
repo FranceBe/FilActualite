@@ -1,7 +1,9 @@
-export const reactionEmojis = {
-  'likes': '☺️',
-  'hearts': '😍',
-  'sad': '😭',
+import FontAwesome from'react-fontawesome';
+
+export const reactionsEnum = {
+  'likes': 'fa-thumbs-up',
+  'hearts': 'fa-heart',
+  'sad': 'fa-frown',
 };
 
 export const actualites = [

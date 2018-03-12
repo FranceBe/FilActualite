@@ -1,5 +1,5 @@
 import React from 'react';
-import { reactionEmojis } from './actualites';
+import { reactionsEnum } from './actualites';
 import classNames from 'classnames';
 import uniqid from 'uniqid';
 
@@ -27,7 +27,9 @@ renderReaction([reactionType, compteur]) {
             )}
             onClick={(e) => this.selectReaction(reactionType)}
         >
-            {reactionEmojis[reactionType]} {compteur}
+            <i class={"fas " + reactionsEnum[reactionType]} />
+
+            {" " + compteur}
         </div>
     );
 }

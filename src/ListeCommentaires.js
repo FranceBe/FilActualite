@@ -12,6 +12,7 @@ export default function ListeCommentaires(props) {
             <div className="ListeCommentaires">
             <div> <span className="comments"> Commentaires : </span>  </div>
              { commentaires.map((commentaire) => <Commentaire key={uniqid()} commentaire={commentaire} />)}
+             
              </div>
         )
 }
