@@ -37,7 +37,7 @@ export default class ListeCommentaires extends React.Component {
         const { commentaires } = this.state;
 
         if (!commentaires.length) {
-            return null;
+            return <AddComment onAddComment={this.onAddComment} />;
         }
 
         return (
