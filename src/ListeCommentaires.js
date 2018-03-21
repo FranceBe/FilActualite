@@ -22,7 +22,7 @@ export default class ListeCommentaires extends React.Component {
             message: value,
             datePublication: Date.now(),
             auteur: {
-                nom: '',
+                nom: 'Nouvel Utilisateur',
                 avatar: '../img/unknown.jpg',
             },
             actualiteId: '48ld'
